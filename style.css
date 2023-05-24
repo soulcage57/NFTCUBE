@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+main{
+    width: 300px;
+    height: 500px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 50px black;
+    
+
+    
+}
+
+.imgdiv{
+    background-image: url(./images/image-equilibrium.jpg);
+    /* background-color: blue; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 48%;
+    margin-top: 25px;
+    margin-left: 30px;
+    
+}
+.equ{
+    width: 80%;
+    height: 48%;
+    margin-left: 30px;
+    color: White;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.our{
+    color: hsl(215, 20%, 42%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+.eth{
+    margin-top: 10px;
+    position: absolute;
+}
+.etht{
+    margin-left: 20px;
+    margin-top: 25px;
+    color: aqua;
+}
+
+.svg{
+    position: relative;
+    left:150px;
+    top:-40px;
+    color: hsl(215, 20%, 42%);
+}
+
+.time{
+    
+}
+hr{
+    position: relative;
+    top:-30px;
+}
+.avatar{
+    width: 100%px;
+    height: 35px;
+    position: absolute;
+    color:hsl(215, 20%, 42%); 
+    margin-top:-30px;  
+}
+
+.creation{
+    position: absolute;
+    color:hsl(215, 20%, 42%);
+    margin-left:40px;
+    margin-top:-25px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+.jules{
+    position: absolute;
+    
+    margin-top: -25px;
+    margin-left:120px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
